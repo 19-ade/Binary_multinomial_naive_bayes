@@ -73,7 +73,7 @@ For example:
 
 ## Resources:
 - I used this [resource](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwir0szqodjuAhXJfX0KHWk3D6kQFjAQegQIIBAC&url=https%3A%2F%2Fweb.stanford.edu%2F~jurafsky%2Fslp3%2F4.pdf&usg=AOvVaw00iILqjBPC8ocD9_czKqu2) for learning about Naive Bayes . All the pictures used here are also from the same resource.
-
+- The dataset used is included in the repo. I used the randomized version of the same for training and testing the NB classifier. The data was obtained from [here](https://github.com/chen0040/mxnet-sentiment-analysis/blob/master/demo/data/umich-sentiment-train.txt)
 
 
 
