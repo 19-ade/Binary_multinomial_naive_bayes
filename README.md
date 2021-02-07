@@ -7,6 +7,17 @@ This is a bayesian Classifier which makes a simplifying (naive) assumption about
 
 We represent the sentences as a **bag_of_words**. A bag of words is basically an unordered set of words where the position does not matter but we keep track of the frequency of each word.
 
+
+<p>
+  <img src="Screenshot from 2021-02-07 22-44-23.png">
+</p>
+
+
+
+
+
+
+
 Now our main task is to find the class given a document . Here the class represents the sentiment. 
 
 C<sub>nb</sub>=argmax<sub>c∈C</sub> P(c|d)
@@ -42,7 +53,9 @@ where P(wi/C)=count(wi,c)+a/x+V* a , where a is the laplace smoothing function, 
 
 Heres an example:
 
-
+<p>
+  <img src="Screenshot from 2021-02-07 22-44-59.png">
+</p>
 
 
 
@@ -64,6 +77,10 @@ We are going to implement the Binary Multinomial Naive Bayes for sentiment analy
 
 
 For example:
+
+<p>
+  <img src="Screenshot from 2021-02-07 22-45-22.png">
+</p>
 
 
 
